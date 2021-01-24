@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/manage_persons"
+        android:title="@string/option_managePersons"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:id="@+id/manage_dishes"
+        android:title="@string/option_manageDishes"
+        app:showAsAction="never">
+    </item>
+</menu>

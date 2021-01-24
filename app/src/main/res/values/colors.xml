@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FBAF2D</color>
+    <color name="colorPrimaryDark">#865D19</color>
+    <color name="colorAccent">#A35F0B</color>
+    <color name="listViewSeperatorColor">#C9C9C9</color>
+    <color name="defaultWhite">#FFFFFF</color>
+    <color name="componentUnavalible">#B3B3B3</color>
+    <color name="text_unavalible">#E0E0E0</color>
+</resources>

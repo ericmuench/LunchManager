@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:paddingLeft="8dp"
+        android:text="@string/head_availiblePersons"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/avaliblePersons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="100"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"></ListView>
+
+    <Button
+        android:id="@+id/lunchGeneration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:onClick="showResults"
+        android:padding="16dp"
+        android:text="@string/btn_lunchGeneration" />
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.emuench.mittagessenverwaltung">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.DishEditActivity"
+            android:label="@string/title_editDishes"
+            android:parentActivityName=".activities.DishManagementActivity"
+            android:noHistory="true">
+
+        </activity>
+        <activity
+            android:name=".activities.DishManagementActivity"
+            android:label="@string/option_manageDishes"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity
+            android:name=".activities.PersonEditActivity"
+            android:label="@string/title_editPersons"
+            android:parentActivityName=".activities.PersonManagementActivity"
+            android:noHistory="true"/>
+        <activity
+            android:name=".activities.PersonManagementActivity"
+            android:label="@string/option_managePersons"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity
+            android:name=".activities.ResultActivity"
+            android:label="@string/title_possibleDishes"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

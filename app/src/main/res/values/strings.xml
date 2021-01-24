@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Lunch Manager</string>
+    <string name="btn_lunchGeneration">Show matching dishes</string>
+
+    <string name="head_availiblePersons">Persons present:</string>
+    <string name="head_notLikedIngredients">Note, the Person does not like::</string>
+    <string name="head_personName">Name:</string>
+    <string name="head_person_notLikedIngredients">The person does not like:</string>
+    <string name="head_dishTitle">Title:</string>
+    <string name="head_bookName">Book:</string>
+    <string name="head_likedByPersons">Persons that like this dish:</string>
+    <string name="head_weblink">URL:</string>
+
+    <string name="title_persons">All Persons</string>
+    <string name="title_dishes">All Dishes</string>
+    <string name="title_editDishes">Edit Dish</string>
+
+    <string name="option_deleteListItem">Delete Element</string>
+    <string name="option_managePersons">Manage Persons</string>
+    <string name="option_manageDishes">Manage Dishes</string>
+    <string name="option_addPerson">Add Person</string>
+    <string name="option_searchPerson">Search Person</string>
+    <string name="option_savePerson">Save Person</string>
+    <string name="option_addDish">Add Dish</string>
+    <string name="option_searchDish">Search Dish</string>
+    <string name="option_saveDish">Save Dish</string>
+
+    <string name="information_link_avalible">URL available</string>
+    <string name="information_no_results">Unfortunately, there are no dishes available, that are liked by all selected Persons.</string>
+    <string name="information_please_enter_person_name">Please enter the name of the Person</string>
+    <string name="information_enter_notLikedIngredient">Please enter food that is not liked</string>
+    <string name="information_enter_title_dish">Enter the Title of the dish</string>
+    <string name="information_enter_booktitle">Deposit cookbook</string>
+    <string name="information_enter_book_site">Page</string>
+    <string name="information_enter_weblink">Enter URL</string>
+
+    <string name="warning_invalidPersonName">Invalid Name. Please try again!</string>
+    <string name="warning_invalid_weblink">Invalid URL. Please change the entered URL!</string>
+    <string name="warning_invalid_title">Invalid dish-title. Please try again!</string>
+    <string name="warning_invalid_booksite">Invalid Bookpage. Please try again!</string>
+    <string name="warning_site_without_book">Error: To Add a page of a book you need to specify the book.</string>
+    <string name="warning_head">Warning</string>
+    <string name="warning_saving_error">Error while Saving Data</string>
+    <string name="warning_msg_delete_dish">Are you sure that the dish should be deleted?</string>
+
+    <string name="data_key_persons" translatable="false">KEY_PERSONS</string>
+    <string name="data_key_dishes" translatable="false">KEY_DISHES</string>
+    <string name="warning_msg_delete_person">Are you sure that the person should be deleted?</string>
+    <string name="title_addPerson">Add Person</string>
+    <string name="title_editPersons">Edit Person</string>
+    <string name="title_possibleDishes">Possible Dishes</string>
+    <string name="head_bookSite">Page:</string>
+    <string name="btn_showRecipeInWeb">Show Recipe in the Web</string>
+    <string name="bn_delete_dish">Delete Dish</string>
+    <string name="btn_delete_person">Delete Person</string>
+    <string name="btn_add_fields_for_notLikedIngredients">" Add additional food that is not liked"</string>
+
+</resources>
